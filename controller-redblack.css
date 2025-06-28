@@ -1,0 +1,50 @@
+/* Dark red & black custom Xbox-style controller */
+
+body {
+  background: transparent;
+}
+
+.controller {
+  filter: drop-shadow(0 0 8px #550000);
+}
+
+svg path {
+  fill: #8b0000; /* deep red base */
+  stroke: #000000; /* black outlines */
+  stroke-width: 0.5px;
+}
+
+/* Buttons light up black when pressed */
+.pressed {
+  fill: #000 !important;
+}
+
+/* Thumbsticks */
+#L3, #R3 {
+  fill: #111;
+  stroke: #000;
+}
+
+/* D-pad */
+#DU, #DD, #DL, #DR {
+  fill: #222;
+  stroke: #000;
+}
+
+/* Buttons ABXY */
+#A, #B, #X, #Y {
+  fill: #550000;
+  stroke: #000;
+}
+
+/* Triggers and bumpers */
+#LT, #RT, #LB, #RB {
+  fill: #660000;
+  stroke: #000;
+}
+
+/* Center buttons (Start/Back) */
+#BACK, #START, #GUIDE {
+  fill: #330000;
+  stroke: #000;
+}
